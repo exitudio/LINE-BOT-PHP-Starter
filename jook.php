@@ -31,7 +31,7 @@ $botData = json_decode('{"answers":[
 ', true);
 
 
-$access_token = 'Oim7BDPK584CzkBpu/6GWENT+fUjPFjastMyVTXZtyUMDP5MlOiCnl3IbZSgV8olsZA/F5gVRObhiSlWVb/UzN4/xHFhIH3Et+a8AThijuVnLFFSrwuDY7uiCRgoFweQgMGj6+R97+wnfgksqZkELgdB04t89/1O/w1cDnyilFU=';
+$access_token = '82xfNIJdgKkKRItOKPUjcP1OHMVvNB7Avy02b3Qjk/g1XzU2rE7llUQTQLmicNmORuhWGq9bCKIG1IsZnIv5LB9RcbAj/B2XfHQ1bb3JCEtLP8C6qbXjc7HhEDn25SYNjZA73iDAST4EnMOE1x/LrwdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
 $content = file_get_contents('php://input');
