@@ -8,12 +8,24 @@
 header('Content-Type: application/json; charset=utf-8');
 $botData = json_decode('{"answers":[
     {
-        "questions":["a","b"],
-        "answer":"ansAB"
+        "questions":["หวัดดี","สวัสดี"],
+        "answer":"สวัสดีค่ะ นี่อาจารย์ผู้หญิงเอง รับอะไรดีคะ"
     },
     {
-        "questions":["c","d"],
-        "answer":"ansCD"
+        "questions":["โจ๊ก"],
+        "answer":"กี่ถุงคะ"
+    },
+    {
+        "questions":["3"],
+        "answer":"ใส่ไข่มั้ยคะ"
+    },
+    {
+        "questions":["ไม่"],
+        "answer":"โจ๊กไม่ใส่ไข่สามถุง ให้ไปส่งที่ไหนดีคะ"
+    },
+    {
+        "questions":["ซอย 9 บ้านเลขที่ 5/1880"],
+        "answer":"ไอ้สัสนั่นมันบ้านกู"
     }
 ]}
 ', true);
@@ -66,7 +78,7 @@ if (!is_null($events['events'])) {
 }
 
 
-//echo botEcho("a",$botData);
+echo botEcho("สวัสดี",$botData);
 function botEcho($text,$botData){
     //var_dump($botData);
     if( $botData["answers"] ){
